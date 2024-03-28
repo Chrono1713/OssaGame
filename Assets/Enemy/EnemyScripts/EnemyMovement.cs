@@ -13,6 +13,7 @@ public class EnemyScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        transform.position = new vector3(target.transform.position.x )
         target = GameObject.Find("Player");
     }
 

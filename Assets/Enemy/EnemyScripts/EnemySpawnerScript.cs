@@ -8,13 +8,13 @@ public class EnemySpawnerScript : MonoBehaviour
 
     private int EnemyNumber;
     private GameObject target;
+    private int FrameCounter = 0;
     public GameObject Enemy;
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.Find("Player");
-        spawn();
     }
 
     // Update is called once per frame
@@ -25,12 +25,22 @@ public class EnemySpawnerScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, 2.0f);    
+        // spawning enemy
+        if (FrameCounter == SpawnRate * 50) {
+            spawn();
+            FrameCounter = 0;
+        } else {
+            FrameCounter++;
+        }
+        
+        // keeping position on player (kinda useless)
+        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, 2.0f); 
+        
     }
 
     void spawn() 
     {
         Instantiate(Enemy);
-        // new Vector3(target.transform.position.x, target.transform.position.y, 0f)
+        // IGNORE - new Vector3(target.transform.position.x, target.transform.position.y, 0f)
     }
 }

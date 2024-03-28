@@ -655,3 +655,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1651.087238 seconds.
+  path: Assets/Enviroment/tempgrid.jpg
+  artifactKey: Guid(0c773835c4b9ab844be7cef10da4b6d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enviroment/tempgrid.jpg using Guid(0c773835c4b9ab844be7cef10da4b6d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e932522781bab645fb1e9f1f1ff5aaa0') in 0.211581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b656300d5ec91e1105da8ca15e0c07eb') in 0.003009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Enemy/EnemyScripts/EnemyMovement.cs
+  artifactKey: Guid(1268d8a38d88e3944a3e433cd3dd8d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemy/EnemyScripts/EnemyMovement.cs using Guid(1268d8a38d88e3944a3e433cd3dd8d58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92c4995465c7b20b1c6374d52fac53d9') in 0.005401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Enemy/EnemyScripts/EnemySpawnerScript.cs
+  artifactKey: Guid(d25d9585d9d0fa84baa09cdbef53c199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemy/EnemyScripts/EnemySpawnerScript.cs using Guid(d25d9585d9d0fa84baa09cdbef53c199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f798c1b7aabcdbae4549cb2766ab900e') in 0.003325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.776675 seconds.
+  path: Assets/Player
+  artifactKey: Guid(6e3a8456a2702874cb0aed1aad041eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Player using Guid(6e3a8456a2702874cb0aed1aad041eda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b685f967c63f8cabeb983070a9e0908') in 0.001762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Enemy
+  artifactKey: Guid(f192c655e45db4146a53d7667417fd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemy using Guid(f192c655e45db4146a53d7667417fd50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78a6d591426ddecb2cd4f185a3908a42') in 0.001476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

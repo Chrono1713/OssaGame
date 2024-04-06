@@ -2,18 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class EnemyScript : MonoBehaviour
 {
 
     public float MovementSpeed;
 
+
     private GameObject target;
     private float moveHorizontal, moveVertical;
 
     // Start is called before the first frame update
+
+    // private static void StrBiome()
+    // {
+    //     var strB = Random.Range(0, int.MaxValue);
+    //     Debug.Log(strB);
+    // }
     void Start()
     {
-        transform.position = new vector3(target.transform.position.x )
         target = GameObject.Find("Player");
     }
 

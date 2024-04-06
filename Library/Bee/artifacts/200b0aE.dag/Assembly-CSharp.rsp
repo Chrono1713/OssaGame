@@ -328,6 +328,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Enemy/EnemyScripts/EnemyMovement.cs"
 "Assets/Enemy/EnemyScripts/EnemySpawnerScript.cs"
+"Assets/Enemy/EnemyScripts/EnemyStartTeleport.cs"
 "Assets/Player/PlayerMovement.cs"
 -langversion:9.0
 

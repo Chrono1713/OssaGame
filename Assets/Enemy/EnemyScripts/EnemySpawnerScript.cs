@@ -5,8 +5,6 @@ using UnityEngine;
 public class EnemySpawnerScript : MonoBehaviour
 {
     public float SpawnRate;
-
-    private int EnemyNumber;
     private GameObject target;
     private int FrameCounter = 0;
     public GameObject Enemy;

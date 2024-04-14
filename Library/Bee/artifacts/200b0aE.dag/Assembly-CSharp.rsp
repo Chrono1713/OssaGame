@@ -329,6 +329,8 @@
 "Assets/Enemy/EnemyScripts/EnemyMovement.cs"
 "Assets/Enemy/EnemyScripts/EnemySpawnerScript.cs"
 "Assets/Enemy/EnemyScripts/EnemyStartTeleport.cs"
+"Assets/Enemy/EnemyScripts/ProjectileScript.cs"
+"Assets/Enemy/EnemyScripts/ThrowerScript.cs"
 "Assets/MainMenu/MainMenuEvents.cs"
 "Assets/Player/PlayerMovement.cs"
 -langversion:9.0

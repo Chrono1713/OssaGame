@@ -8,11 +8,10 @@ public class ProjectileScript : MonoBehaviour
 
     private GameObject target;
 
-    private double dx;
-    private double dy;
+    private float dx;
+    private float dy;
     private float damuoverex;
     private float damuoverey;
-    private double   alfa;
 
 
     // Start is called before the first frame update
@@ -20,16 +19,15 @@ public class ProjectileScript : MonoBehaviour
     {
         target = GameObject.Find("Player");
         dx = target.transform.position.x - gameObject.transform.position.x;
-        dy = (target.transform.position.y - gameObject.transform.position.y).Abs();
-        alfa = System.Math.Atan(dx/dy);
+        dy = target.transform.position.y - gameObject.transform.position.y;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         // transform.position += new Vector3((float)System.Math.Cos(alfa)*ProjectileSpeed, (float)System.Math.Sin(alfa)*ProjectileSpeed);
-        damuoverex = (float)System.Math.Cos(alfa)*ProjectileSpeed;
-        damuoverey = (float)System.Math.Sin(alfa)*ProjectileSpeed;
+        damuoverex = dx*ProjectileSpeed/100f;
+        damuoverey = dy*ProjectileSpeed/100f;
         transform.position += new Vector3(damuoverex, damuoverey, 0);
     }
 }

@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class EnemySpawnerScript : MonoBehaviour
 {
+    private int counter = 0;
+    private int numberofenemies = 2;
     public float SpawnRate;
     private GameObject target;
     private int FrameCounter = 0;
-    public GameObject Enemy;
+    public GameObject Thrower;
+    public GameObject Topo;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +41,11 @@ public class EnemySpawnerScript : MonoBehaviour
 
     void spawn() 
     {
-        Instantiate(Enemy);
+        if (counter%numberofenemies == 0) {
+            Instantiate(Thrower);
+        } else {
+            Instantiate(Topo);
+        }
         // IGNORE - new Vector3(target.transform.position.x, target.transform.position.y, 0f)
     }
 }

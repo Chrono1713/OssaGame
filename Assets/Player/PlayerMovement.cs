@@ -7,9 +7,12 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public float MovementSpeed;
+    public int ProjectileDamage;
     private Animator animator;
     
     private float moveHorizontal, moveVertical;
+
+    public int hp;
 
     // Start is called before the first frame update
     void Start()
@@ -91,5 +94,14 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("yo");
+        if (collision.gameObject.tag == "projectile") 
+        {
+            hp -= ProjectileDamage;
+            Debug.Log(hp);
+        }
+    }
 
 }

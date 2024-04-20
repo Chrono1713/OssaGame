@@ -30,6 +30,7 @@ public class ThrowerScript : MonoBehaviour
 
     void Throw()
     {
+        
         Instantiate(Projectile, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
     }
 }

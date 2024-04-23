@@ -10,6 +10,7 @@ public class ThrowerScript : MonoBehaviour
     public int ThrowRate;
 
     public GameObject Projectile;
+    private float x, y, z;
 
 
     // Start is called before the first frame update
@@ -19,7 +20,9 @@ public class ThrowerScript : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
+    { 
+        
+
         if (FrameCounter == ThrowRate * 50) {
             FrameCounter = 0;
             Throw();
@@ -30,7 +33,6 @@ public class ThrowerScript : MonoBehaviour
 
     void Throw()
     {
-        
         Instantiate(Projectile, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
     }
 }

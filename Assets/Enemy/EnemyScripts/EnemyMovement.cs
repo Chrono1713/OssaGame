@@ -7,6 +7,7 @@ public class EnemyScript : MonoBehaviour
 {
 
     public float MovementSpeed;
+    private int FrameCounter = 0;
 
 
     private GameObject target;
@@ -47,6 +48,15 @@ public class EnemyScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
+        FrameCounter += 1;
+        if (FrameCounter < 200) 
+        {
+            transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
+        } 
+        else if (FrameCounter >= 260)
+        {
+            FrameCounter = 0;
+        }
+        Debug.Log(FrameCounter);
     }
 }

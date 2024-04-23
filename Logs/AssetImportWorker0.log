@@ -1239,3 +1239,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 694.741494 seconds.
+  path: Assets/Enemy/Thrower/Thrower.prefab
+  artifactKey: Guid(7e6da14da90cc431692c4933e794e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Thrower/Thrower.prefab using Guid(7e6da14da90cc431692c4933e794e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dd90c2f0ee7ba85d89239a598dd190') in 0.060112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 4.028763 seconds.
+  path: Assets/Enemy/Thrower/ThrowerAnimations/Thrower.controller
+  artifactKey: Guid(d5b2995ea7ff246178dfd33c2e0e79c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Thrower/ThrowerAnimations/Thrower.controller using Guid(d5b2995ea7ff246178dfd33c2e0e79c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96cedb96c9fa7a89e141b99486865b9') in 0.001681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1303.528410 seconds.
+  path: Assets/Enemy/Thrower/ThrowerFr.prefab
+  artifactKey: Guid(838638b0ec1694d3f8e0f5662e14378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Thrower/ThrowerFr.prefab using Guid(838638b0ec1694d3f8e0f5662e14378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc146b1ed423ac9c37fc5aa3210bebb') in 0.047397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44

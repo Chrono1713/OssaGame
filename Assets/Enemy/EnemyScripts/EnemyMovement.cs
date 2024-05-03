@@ -25,7 +25,6 @@ public class EnemyScript : MonoBehaviour
     void Start()
     {
         target = GameObject.Find("Player");
-        Debug.Log(throwerScript.FrameCounter);
     }
 
     // Update is called once per frame
@@ -51,17 +50,17 @@ public class EnemyScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // if (gameObject.GetComponent<"ThrowerScript">().FrameCounter < 200) 
-        // {
-        //     transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
-        // } 
-        // else if (gameObject.GetComponent<"ThrowerScript">().FrameCounter >= 200 && gameObject.GetComponent<"ThrowerScript">().FrameCounter < 260)
-        // {
-        //     animator.SetBool("shooting", true);
-        // }
-        // else if (gameObject.GetComponent<"ThrowerScript">().FrameCounter >= 260)
-        // {
-        //     animator.SetBool("shooting", false);
-        // }
+        if (throwerScript.FrameCounter < 200) 
+        {
+            transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
+        } 
+        else if (throwerScript.FrameCounter >= 200 && throwerScript.FrameCounter < 260)
+        {
+            animator.SetBool("shooting", true);
+        }
+        else if (throwerScript.FrameCounter >= 260)
+        {
+            animator.SetBool("shooting", false);
+        }
     }
 }

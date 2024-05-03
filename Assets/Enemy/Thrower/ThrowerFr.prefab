@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 0.05
+  throwerScript: {fileID: 585069369813717187}
 --- !u!114 &3560153943668477082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -127,6 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ce9421f125da46f1b30e1da26a0cd87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FrameCounter: 0
   ThrowRate: 5
   Projectile: {fileID: 2273322150403481910, guid: 05e3878fb20f24c0794544b85ce76c0e, type: 3}
 --- !u!61 &289508516354388592

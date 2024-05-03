@@ -24,6 +24,7 @@ public class EnemyScript : MonoBehaviour
     // }
     void Start()
     {
+        animator = GetComponent<Animator>();
         target = GameObject.Find("Player");
     }
 
@@ -54,11 +55,11 @@ public class EnemyScript : MonoBehaviour
         {
             transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
         } 
-        else if (throwerScript.FrameCounter >= 200 && throwerScript.FrameCounter < 260)
+        else if (throwerScript.FrameCounter >= 200 && throwerScript.FrameCounter < 245)
         {
             animator.SetBool("shooting", true);
         }
-        else if (throwerScript.FrameCounter >= 260)
+        else if (throwerScript.FrameCounter >= 240)
         {
             animator.SetBool("shooting", false);
         }

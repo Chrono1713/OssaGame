@@ -35,7 +35,7 @@ public class ProjectileScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player") 
         {
-            Destroy(gameObject, 0.2f);
+            Destroy(gameObject);
         }
     }
 

@@ -29,6 +29,8 @@ public class EnemySpawnerScript : MonoBehaviour
         // spawning enemy
         if (FrameCounter == SpawnRate * 50) {
             spawn();
+            FrameCounter++;
+        } else if (FrameCounter > SpawnRate * 50 + 25) {
             FrameCounter = 0;
         } else {
             FrameCounter++;

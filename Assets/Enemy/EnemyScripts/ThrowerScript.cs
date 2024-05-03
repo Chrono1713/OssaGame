@@ -23,7 +23,7 @@ public class ThrowerScript : MonoBehaviour
     { 
         
 
-        if (FrameCounter == ThrowRate * 50) {
+        if (FrameCounter > ThrowRate * 50) {
             FrameCounter = 0;
             Throw();
         } else {

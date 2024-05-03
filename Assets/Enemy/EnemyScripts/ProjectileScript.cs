@@ -30,4 +30,16 @@ public class ProjectileScript : MonoBehaviour
         damuoverey = dy*ProjectileSpeed/100f;
         transform.position += new Vector3(damuoverex, damuoverey, 0);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player") 
+        {
+            Destroy(gameObject, 0.2f);
+        }
+    }
+
+
 }
+
+

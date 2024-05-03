@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-
+    private Animator animator;
     public float MovementSpeed;
     private int FrameCounter = 0;
+
+    public ThrowerScript throwerScript;
 
 
     private GameObject target;
@@ -23,6 +25,7 @@ public class EnemyScript : MonoBehaviour
     void Start()
     {
         target = GameObject.Find("Player");
+        Debug.Log(throwerScript.FrameCounter);
     }
 
     // Update is called once per frame
@@ -48,15 +51,17 @@ public class EnemyScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        FrameCounter += 1;
-        if (FrameCounter < 200) 
-        {
-            transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
-        } 
-        else if (FrameCounter >= 260)
-        {
-            FrameCounter = 0;
-        }
-        Debug.Log(FrameCounter);
+        // if (gameObject.GetComponent<"ThrowerScript">().FrameCounter < 200) 
+        // {
+        //     transform.position += new Vector3(moveHorizontal * MovementSpeed, moveVertical * MovementSpeed, 0f);
+        // } 
+        // else if (gameObject.GetComponent<"ThrowerScript">().FrameCounter >= 200 && gameObject.GetComponent<"ThrowerScript">().FrameCounter < 260)
+        // {
+        //     animator.SetBool("shooting", true);
+        // }
+        // else if (gameObject.GetComponent<"ThrowerScript">().FrameCounter >= 260)
+        // {
+        //     animator.SetBool("shooting", false);
+        // }
     }
 }

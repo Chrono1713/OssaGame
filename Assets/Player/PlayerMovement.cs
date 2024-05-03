@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -46,6 +47,12 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(0.5f, 0.5f, 0f);
         }  
+
+
+        if (hp <= 0f) 
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     void FixedUpdate() 
@@ -96,7 +103,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("yo");
         if (collision.gameObject.tag == "projectile") 
         {
             hp -= ProjectileDamage;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ThrowerScript : MonoBehaviour
 {
 
-    private int FrameCounter = 0;
+    public int FrameCounter = 0;
 
     public int ThrowRate;
 

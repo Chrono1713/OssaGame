@@ -1657,3 +1657,11 @@ Received Import Request.
 Start importing Assets/Enemy/Thrower/Thrower.prefab using Guid(7e6da14da90cc431692c4933e794e8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c71ca67c5a2b3ac4ce770ab1946da7d') in 0.037980 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 8232.754832 seconds.
+  path: Assets/Enemy/Thrower/ThrowerFr.prefab
+  artifactKey: Guid(838638b0ec1694d3f8e0f5662e14378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Thrower/ThrowerFr.prefab using Guid(838638b0ec1694d3f8e0f5662e14378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4d08bd837b97f33967165f5de98d63') in 0.060783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47

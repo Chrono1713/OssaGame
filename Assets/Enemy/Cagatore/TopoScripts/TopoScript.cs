@@ -17,6 +17,8 @@ public class TopoScript : MonoBehaviour
 
     public ThrowerScript throwerScript;
 
+    public GameObject merda;
+
     private float moveHorizontal, moveVertical;
 
     // Start is called before the first frame update
@@ -46,7 +48,10 @@ public class TopoScript : MonoBehaviour
         if (Mathf.Abs(transform.position.x - targetx) < 1f && Mathf.Abs(transform.position.y - targety) < 1f) {
             counter++;
             moving = false;
+            animator.SetBool("Cagando", true);
             if (counter > 50) {
+                Caga();
+                animator.SetBool("Cagando", false);
                 counter = 0;
                 moving = true;
                 rndx = Random.Range(-10, 10);
@@ -58,6 +63,11 @@ public class TopoScript : MonoBehaviour
         if (moving) {
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(targetx, targety, 1f), MovementSpeed);
         }
+    }
+
+
+    void Caga () {
+        Instantiate(merda, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
     }
 
 }

@@ -13,6 +13,7 @@ public class ProjectileScript : MonoBehaviour
     private float dx;
     private float dy;
     private Vector3 nemico;
+    private Animator animator;
 
 
     // Start is called before the first frame update

@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float MovementSpeed;
     public int ProjectileDamage;
+    public int MerdaDamage;
     private Animator animator;
     
     private float moveHorizontal, moveVertical;
@@ -106,6 +107,9 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "projectile") 
         {
             hp -= ProjectileDamage;
+            Debug.Log(hp);
+        } else if (collision.gameObject.tag == "merda") {
+            hp -= MerdaDamage;
             Debug.Log(hp);
         }
     }

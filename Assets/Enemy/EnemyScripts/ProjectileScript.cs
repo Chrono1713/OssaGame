@@ -8,27 +8,31 @@ public class ProjectileScript : MonoBehaviour
 
     private GameObject target;
 
+    private float targetx;
+    private float targety;
     private float dx;
     private float dy;
-    private float damuoverex;
-    private float damuoverey;
+    private Vector3 nemico;
 
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.Find("Player");
-        dx = target.transform.position.x - gameObject.transform.position.x;
-        dy = target.transform.position.y - gameObject.transform.position.y;
+        targetx = target.transform.position.x;
+        targety = target.transform.position.y;
+        dx = gameObject.transform.position.x - targetx;
+        dy = gameObject.transform.position.y - targety;
+        nemico = new Vector3(targetx - 5*dx, targety - 5*dy, 1f);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        // transform.position += new Vector3((float)System.Math.Cos(alfa)*ProjectileSpeed, (float)System.Math.Sin(alfa)*ProjectileSpeed);
-        damuoverex = dx*ProjectileSpeed/100f;
-        damuoverey = dy*ProjectileSpeed/100f;
-        transform.position += new Vector3(damuoverex, damuoverey, 0);
+        transform.position = Vector3.MoveTowards(transform.position, nemico, ProjectileSpeed/10f);
+        if (transform.position.x == nemico.x && transform.position.y == nemico.y) {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

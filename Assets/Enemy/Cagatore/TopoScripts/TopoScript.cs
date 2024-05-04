@@ -38,27 +38,25 @@ public class TopoScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+
     }
 
     void FixedUpdate()
-    {
-        if (moving) {
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(targetx, targety, 1f), MovementSpeed);
-        }
-        if (transform.position.x == targetx && transform.position.y == targety) {
+    {   
+        if (Mathf.Abs(transform.position.x - targetx) < 1f && Mathf.Abs(transform.position.y - targety) < 1f) {
             counter++;
-            Debug.Log("counter is counting");
             moving = false;
             if (counter > 50) {
                 counter = 0;
                 moving = true;
-                Debug.Log("ismovingagain");
+                rndx = Random.Range(-10, 10);
+                rndy = Random.Range(-10, 10);
+                targetx = transform.position.x + rndx;
+                targety = transform.position.y + rndy;
             } 
-            rndx = Random.Range(-10, 10);
-            rndy = Random.Range(-10, 10);
-            targetx = transform.position.x + rndx;
-            targety = transform.position.y + rndy;
+        } 
+        if (moving) {
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(targetx, targety, 1f), MovementSpeed);
         }
     }
 

@@ -45,8 +45,10 @@ public class EnemySpawnerScript : MonoBehaviour
     {
         if (counter%numberofenemies == 0) {
             Instantiate(Thrower);
+            counter++;
         } else {
             Instantiate(Topo);
+            counter++;
         }
         // IGNORE - new Vector3(target.transform.position.x, target.transform.position.y, 0f)
     }

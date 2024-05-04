@@ -7,7 +7,6 @@ public class EnemyScript : MonoBehaviour
 {
     private Animator animator;
     public float MovementSpeed;
-    private int FrameCounter = 0;
 
     public ThrowerScript throwerScript;
 
@@ -34,10 +33,12 @@ public class EnemyScript : MonoBehaviour
         if (transform.position.x > target.transform.position.x + 1.0f)
         {
             moveHorizontal = -1;
+            transform.localScale = new Vector3(-0.75f, 0.75f, 1f);
         }
         if (transform.position.x < target.transform.position.x - 1.0f)
         {
             moveHorizontal = 1;
+            transform.localScale = new Vector3(0.75f, 0.75f, 1f);
         }
         if (transform.position.y > target.transform.position.y + 1.0f)
         {

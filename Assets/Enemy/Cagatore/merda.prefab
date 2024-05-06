@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7207755538606182675}
   - component: {fileID: 8396586953713692984}
   - component: {fileID: -808932478593849237}
-  - component: {fileID: -2813799862204316879}
   - component: {fileID: -2835333571788972656}
+  - component: {fileID: 5653481583442230360}
   m_Layer: 0
   m_Name: merda
   m_TagString: merda
@@ -76,12 +76,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6914a5853d0b859448a791b3b6cc4aea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46fb0e3a561802a4791402655e07f7fa, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.14, y: 2.35}
+  m_Size: {x: 3.16, y: 3.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -114,18 +114,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-2813799862204316879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3337167479759326115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 442a539c1e6f7ee45b9cec3fdbb906ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &-2835333571788972656
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -162,8 +150,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.14, y: 2.35}
-    newSize: {x: 2.14, y: 2.35}
+    oldSize: {x: 3.16, y: 3.16}
+    newSize: {x: 3.16, y: 3.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -171,3 +159,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.14, y: 2.35}
   m_EdgeRadius: 0
+--- !u!114 &5653481583442230360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3337167479759326115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 442a539c1e6f7ee45b9cec3fdbb906ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float MovementSpeed;
     public int ProjectileDamage;
     public int MerdaDamage;
+    public int CaneDamage;
     private Animator animator;
     
     private float moveHorizontal, moveVertical;
@@ -110,6 +111,9 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log(hp);
         } else if (collision.gameObject.tag == "merda") {
             hp -= MerdaDamage;
+            Debug.Log(hp);
+        } else if (collision.gameObject.tag == "cane") {
+            hp -= CaneDamage;
             Debug.Log(hp);
         }
     }

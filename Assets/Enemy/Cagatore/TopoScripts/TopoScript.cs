@@ -15,8 +15,6 @@ public class TopoScript : MonoBehaviour
 
     private bool moving = true;
 
-    public ThrowerScript throwerScript;
-
     public GameObject merda;
 
     private float moveHorizontal, moveVertical;

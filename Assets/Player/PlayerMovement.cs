@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public int ProjectileDamage;
     public int MerdaDamage;
     public int CaneDamage;
+    public int CovidDamage;
     private Animator animator;
     
     private float moveHorizontal, moveVertical;
@@ -114,6 +115,9 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log(hp);
         } else if (collision.gameObject.tag == "cane") {
             hp -= CaneDamage;
+            Debug.Log(hp);
+        } else if (collision.gameObject.tag == "covid") {
+            hp -= CovidDamage;
             Debug.Log(hp);
         }
     }

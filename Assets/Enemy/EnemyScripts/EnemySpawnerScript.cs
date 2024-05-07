@@ -52,6 +52,7 @@ public class EnemySpawnerScript : MonoBehaviour
             counter++;
         } else if (counter%numberofenemies == 2) {
             Instantiate(Cane);
+            counter++;
         }
         // IGNORE - new Vector3(target.transform.position.x, target.transform.position.y, 0f)
     }

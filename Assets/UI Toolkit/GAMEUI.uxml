@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/BASEUI.uss?fileID=7433441132597879392&amp;guid=8d7be82c72ce44b4c845e6393b851cfa&amp;type=3#BASEUI" />
+    <ui:VisualElement style="flex-grow: 1;" />
+    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HP" style="top: -90%; font-size: 40px;" />
+</ui:UXML>

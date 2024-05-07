@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.759204, y: 5.1322107, z: 2}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalScale: {x: 0.6, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_Size: {x: 2.14, y: 2.35}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &7856551486744592387
@@ -186,8 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MovementSpeed: 0.1
-  throwerScript: {fileID: 0}
-  merda: {fileID: 3337167479759326115, guid: 76f4a0ff4ad7b164f9c049aee01fd6c7, type: 3}
+  merda: {fileID: 1953387705963325092, guid: a6a159c474fd947baab24a927b01a955, type: 3}
 --- !u!95 &2845759144771271812
 Animator:
   serializedVersion: 5

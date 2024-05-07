@@ -38,6 +38,8 @@ public class CaneMovment : MonoBehaviour
         {
             moveVertical = 1;
         }        
+
+        transform.rotation = Quaternion.identity;
     }
 
     void FixedUpdate()

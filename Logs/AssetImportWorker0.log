@@ -1,23 +1,30 @@
+Unity Editor version:    2022.3.15f1 (b58023a2b463)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16223 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Pietro Pasqualato/Documents/GitHub/Ossa2/OssaGame
+/Users/pietro/Documents/GitHub/OssaGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61765
-Successfully changed project path to: C:/Users/Pietro Pasqualato/Documents/GitHub/Ossa2/OssaGame
-C:/Users/Pietro Pasqualato/Documents/GitHub/Ossa2/OssaGame
+50119
+Successfully changed project path to: /Users/pietro/Documents/GitHub/OssaGame
+/Users/pietro/Documents/GitHub/OssaGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +56,64 @@ C:/Users/Pietro Pasqualato/Documents/GitHub/Ossa2/OssaGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7224] Host "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 474307818 [EditorId] 474307818 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-149GJ72) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8066912256] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 3485201614 [EditorId] 3485201614 [Version] 1048832 [Id] OSXEditor(0,Pietros-Air.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7224] Host "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 474307818 [EditorId] 474307818 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-149GJ72) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8066912256] Host "[IP] 192.168.1.161 [Port] 0 [Flags] 2 [Guid] 3485201614 [EditorId] 3485201614 [Version] 1048832 [Id] OSXEditor(0,Pietros-Air.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 4.19 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 7.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Pietro Pasqualato/Documents/GitHub/Ossa2/OssaGame/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/pietro/Documents/GitHub/OssaGame/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
-    Vendor:   ATI
-    VRAM:     16337 MB
-    Driver:   31.0.24027.1012
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56744
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56679
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006247 seconds.
-- Loaded All Assemblies, in  0.365 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002050 seconds.
+- Loaded All Assemblies, in  0.698 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 614ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.505 seconds
+Domain Reload Profiling: 1203ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (114ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (303ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (124ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (251ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (276ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (505ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (199ms)
+		SetupLoadedEditorAssemblies (397ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,279 +121,91 @@ Domain Reload Profiling: 614ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.340 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.584 seconds
-Domain Reload Profiling: 923ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 1216ms
+	BeginReloadAssembly (235ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (180ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (229ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (44ms)
-				TypeCache.ScanAssembly (36ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (69ms)
+				TypeCache.ScanAssembly (53ms)
 			ScanForSourceGeneratedMonoScriptInfo (2ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (585ms)
+	FinalizeReload (652ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
+		SetupLoadedEditorAssemblies (487ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (34ms)
-			ProcessInitializeOnLoadAttributes (400ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 322 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 12 unused Assets / (52.5 KB). Loaded Objects now: 786.
-Memory consumption went from 60.7 MB to 60.6 MB.
-Total: 2.208200 ms (FindLiveObjects: 0.048000 ms CreateObjectMapping: 0.013700 ms MarkObjects: 2.083700 ms  DeleteObjects: 0.062000 ms)
+Unloading 12 unused Assets / (46.7 KB). Loaded Objects now: 786.
+Memory consumption went from 68.3 MB to 68.3 MB.
+Total: 4.602958 ms (FindLiveObjects: 0.047791 ms CreateObjectMapping: 0.011917 ms MarkObjects: 4.418500 ms  DeleteObjects: 0.123917 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 158616.283840 seconds.
-  path: Assets/Enemy/Cane/Cane.prefab
-  artifactKey: Guid(4c847ba2259ea1444961bd36702b5382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Cane.prefab using Guid(4c847ba2259ea1444961bd36702b5382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde83626315e616358baff65478745b1') in 0.092041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 45.537627 seconds.
-  path: Assets/Enemy/Cane/Cane 1.prefab
-  artifactKey: Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Cane 1.prefab using Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e96b2fcc0b595f0fadd73ed7d82cda') in 0.008538 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 5.709561 seconds.
-  path: Assets/Enemy/Cane/Covid.prefab
-  artifactKey: Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Covid.prefab using Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed76a0de4c66fa39cb4e0b91d49f2c2d') in 0.006082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 88.983286 seconds.
-  path: Assets/UI Toolkit/BASEUI.uss
-  artifactKey: Guid(8d7be82c72ce44b4c845e6393b851cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/BASEUI.uss using Guid(8d7be82c72ce44b4c845e6393b851cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ee6ddfe4cc8e4b94772ec01572a0d7') in 0.003460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
+  Time since last request: 824900.191940 seconds.
   path: Assets/UI Toolkit/Main Menu VIsual Tree.uxml
   artifactKey: Guid(653e39d17402546c38af2c6a32d11a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/Main Menu VIsual Tree.uxml using Guid(653e39d17402546c38af2c6a32d11a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ce7f3387c3fedeb19f818297a9f10f') in 0.008477 seconds
+Start importing Assets/UI Toolkit/Main Menu VIsual Tree.uxml using Guid(653e39d17402546c38af2c6a32d11a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d234cc551f7bcfabf87d99b89159eb') in 0.017784 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/UI Toolkit/PanelSettings.asset
-  artifactKey: Guid(2c56ce9c83f2646788c967cf3029351c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(2c56ce9c83f2646788c967cf3029351c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d2785bb5685fed6c80118a2605b140') in 0.014169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.880968 seconds.
-  path: Assets/Enemy/Cagatore/merda.prefab
-  artifactKey: Guid(76f4a0ff4ad7b164f9c049aee01fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cagatore/merda.prefab using Guid(76f4a0ff4ad7b164f9c049aee01fd6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e295df88b7305ec364809cffc63182a') in 0.010871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enemy/Cagatore/TopoFr.prefab
-  artifactKey: Guid(ea5ab3223ce21af468081e8754b57d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cagatore/TopoFr.prefab using Guid(ea5ab3223ce21af468081e8754b57d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726aaafc95b1582c2b4fdb31022c6eb8') in 0.002451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 8.429282 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios
-  artifactKey: Guid(532de372b07e0f345aa88ea637440bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios using Guid(532de372b07e0f345aa88ea637440bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1a38731463ee672e36d751cf4767f8') in 0.000528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.553435 seconds.
-  path: Assets/Enemy/Cane/Cane.controller
-  artifactKey: Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Cane.controller using Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64133ba611289b811d0638683e0fdbb3') in 0.001647 seconds
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI Toolkit/MainMenuStyle.uss
+  artifactKey: Guid(aaadd3d989e484a1282b4f2400c4a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/MainMenuStyle.uss using Guid(aaadd3d989e484a1282b4f2400c4a072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271c781936289d09149a3b5c5cb0dbcf') in 0.000482 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.502320 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/Cane.controller
-  artifactKey: Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/Cane.controller using Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b53fd98d548f1f40cc8c37b914e5ef0') in 0.001088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.774596 seconds.
-  path: Assets/Enemy/Cane/Covid.anim
-  artifactKey: Guid(9cfc83e3ea95efe4c84ca1c35e7f4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Covid.anim using Guid(9cfc83e3ea95efe4c84ca1c35e7f4d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f77cb6306fefa10282924c79e65d58') in 0.000782 seconds
+  Time since last request: 7.819158 seconds.
+  path: Assets/UI Toolkit/BASEUI.uss
+  artifactKey: Guid(8d7be82c72ce44b4c845e6393b851cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/BASEUI.uss using Guid(8d7be82c72ce44b4c845e6393b851cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14cd7fbbd1a6c58942fc50778cc782') in 0.001498 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 10.190888 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/Covid.controller
-  artifactKey: Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/Covid.controller using Guid(63ab3547bec9e3443afe19808dd1afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd12ca60826ddb0e6c099e204521e6a') in 0.001279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 41.381077 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/CovidAnimation.anim
-  artifactKey: Guid(04f39a004e0660e4b9bfed637de144b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/CovidAnimation.anim using Guid(04f39a004e0660e4b9bfed637de144b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a5bce68da4aea37c504718dd802e35') in 0.000806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 105.372352 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/pixil-frame-0.png
-  artifactKey: Guid(1073e76297e9507439c10763b9a7e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/pixil-frame-0.png using Guid(1073e76297e9507439c10763b9a7e006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43399419b6a0569eb5a369b7055ca2c') in 0.033094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 26.906212 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/pixil-frame-1.png
-  artifactKey: Guid(cfdf584ab65bfff41aabd7b935e4a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/pixil-frame-1.png using Guid(cfdf584ab65bfff41aabd7b935e4a361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacb40fc8cbaa783a967ce397333d6f9') in 0.013182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/pixil-frame-3.png
-  artifactKey: Guid(af45d40c26c4e1c428eed41449ddd581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/pixil-frame-3.png using Guid(af45d40c26c4e1c428eed41449ddd581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b0cd8a80e3e9dde0297e30bbbf5b79') in 0.016541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Enemy/Cane/CovidAnimatios/pixil-frame-4.png
-  artifactKey: Guid(7a447c9a67630c54ca9a0c8435b67069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/CovidAnimatios/pixil-frame-4.png using Guid(7a447c9a67630c54ca9a0c8435b67069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34843eecd5f61ca5167123e05d7e6f7') in 0.014850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 110.166102 seconds.
-  path: Assets/Enemy/Cane/Covid.prefab
-  artifactKey: Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cane/Covid.prefab using Guid(057eec8744424c745a86740a59dc2782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Covid) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
-UnityEditor.GameObjectInspector:GetPreviewData (bool)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: '1c875e2ead1ce859da84314e7d1cb926') in 0.011022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 12.887833 seconds.
-  path: Assets/Enemy/Thrower/ThrowerAnimations/pixil-layer-2.png
-  artifactKey: Guid(8bc3d54642dfa47b7b0877e49cd6ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Thrower/ThrowerAnimations/pixil-layer-2.png using Guid(8bc3d54642dfa47b7b0877e49cd6ceaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdcbd98c08f2552bb1bdec62225887d') in 0.013257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Enviroment/tempgrid.jpg
-  artifactKey: Guid(0c773835c4b9ab844be7cef10da4b6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enviroment/tempgrid.jpg using Guid(0c773835c4b9ab844be7cef10da4b6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c402dadcbd1c4cc2148519b1de64f965') in 0.013831 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.081984 seconds.
-  path: Assets/MainMenu/jettkancertemp.jpeg
-  artifactKey: Guid(2ac062af19e82437fa8e32c85967f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainMenu/jettkancertemp.jpeg using Guid(2ac062af19e82437fa8e32c85967f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b690c019babace6697e97972c55c4d') in 0.019916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/Enemy/Cagatore/TopoAnimations/pixil-frame-1.png
-  artifactKey: Guid(098601192a944eb4398a6afde01ed341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/Cagatore/TopoAnimations/pixil-frame-1.png using Guid(098601192a944eb4398a6afde01ed341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd597d5fee09a01b041714f378980edfc') in 0.015555 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Player/JettKancerAnimations/pixil-frame-0.png
-  artifactKey: Guid(5eb0309d1380e41acbbc37e617349e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/JettKancerAnimations/pixil-frame-0.png using Guid(5eb0309d1380e41acbbc37e617349e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01e7365b7d3f534bd6dd39e786015c7') in 0.014322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
